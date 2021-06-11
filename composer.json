@@ -15,7 +15,8 @@
     ],
     "require": {
         "drupal/ctools": "^3.4",
-        "pantheon-upstreams/upstream-configuration": "*"
+        "pantheon-upstreams/upstream-configuration": "*",
+        "drush/drush": "^10"
     },
     "conflict": {
             "drupal/drupal": "*"
@@ -51,7 +52,6 @@
         }
     },
     "config": {
-        "optimize-autoloader": true,
         "preferred-install": "dist",
         "sort-packages": true,
         "platform": {
